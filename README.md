@@ -1,3 +1,19 @@
+
+> [!WARNING]
+>
+> This fork has been archived in favor of:
+> https://github.com/Scenerainc/scenera-niceapi
+>
+> If you still have this repo as your local repo's upstream `origin`:
+>
+> ```sh
+> git remote rename origin archive
+> git remote add origin git@github.com:Scenerainc/scenera-niceapi.git
+>
+> git fetch origin
+> git branch -u remotes/origin/{my_upstream_branch_name}
+> ```
+
 Introduction
 --------------
 niceapi is the [NICE 1.1](https://www.nicealliance.org/specs/) compliant library that provides functions:
